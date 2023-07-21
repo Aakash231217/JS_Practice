@@ -6,6 +6,6 @@ const person ={
     hobbies:["cricket","developer"],
 };
 console.log(person.hobbies);
-
+//key->string 
 //access data from objects
-console.log(person.age);//output 20
+console.log(person["name"]);//output 20

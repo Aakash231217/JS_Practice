@@ -16,7 +16,6 @@ console.log(number==number2); //true-> since it only checks the value
 let newNumber="8";
 let newNumber2=8;
 console.log(newNumber===newNumber2);//false-> since one is string and other one is int
-
 //!= and !==
 
 let newer="8";
