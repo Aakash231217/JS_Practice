@@ -38,3 +38,5 @@ const user1=createUser('aakash','singh','rktaakash@gmail.com',21,"renukoot");
 console.log(user1);
 const is18= user1.is18();
 console.log(is18);
+
+console.log()
