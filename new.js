@@ -11,3 +11,9 @@ const user1= new createUser("aakash",20);
 //1. empty object this= {}
 // 2. return this
 console.log(user1);
+
+for(let key in user1){
+    if(user1.hasOwnProperty(key)){
+        console.log(true)
+    }
+}
