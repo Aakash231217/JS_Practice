@@ -29,5 +29,5 @@ function myApp(){
     }
     console.log(firstName);
 }
-
 myApp();
+

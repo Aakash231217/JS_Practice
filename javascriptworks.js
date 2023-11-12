@@ -12,3 +12,4 @@ console.log(firstName);
 //Global Execution Context
 // Creation Phase -> window {}, firstName: undefined, this:window
 // js in single threaded
+

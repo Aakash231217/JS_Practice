@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    position: relative;
+    min-height:50vh;
+    background: magenta;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.container{
+    max-width: 1200px;
+    margin:auto;
+    width:90%;
+}
+
+.nav{
+    min-height: 0vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    width:40%;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.headline{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+
+.btn{
+    display:inline-block;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size:1rem;
+    margin-top:1rem;
+    font-weight:500px;
+}
+
+.todo-section{
+    margin-top:5rem;
+    text-align: center;
+
+}
+
+.form-todo {
+    min-height:5vh;
+    display:flex;
+ }
+.form-todo input{
+ min-height: 100%;   
+}
+
+.form-todo input[type="text"]{
+    width:78%;
+    padding:1rem;
+    font-weight: 450;
+}
+
+.form-todo input[type="submit"]{
+    width: 20%;
+    background:rgb(44,56,63);
+    color:white;
+    font-weight: bold;
+}
+
