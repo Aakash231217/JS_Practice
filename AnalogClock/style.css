@@ -1,20 +1,49 @@
-#clockContainer{
-    margin:auto;
-    border:2px solid red;
-    height: 40vw;
-    width: 40vw;
-    background: url(clock.png) no-repeat;
-    background-size:100%;
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content:center;
+    background: url("https://media.istockphoto.com/id/636379014/photo/hands-forming-a-heart-shape-with-sunset-silhouette.jpg?s=612x612&w=0&k=20&c=CgjWWGEasjgwia2VT7ufXa10azba2HXmUDe96wZG8F0=");
+    background:url(no-repeat);
 }
 
-#hour, #minute, #second{
-    position: absolute;
-    background: black;
-    border-radius:10px;
+.clock{
+    display: flex;
 }
-#hour{
-    width:0.75%;
-    height:34%;
-    top:21%;
-    left:49.5%
+
+.clock div{
+    margin:5px;
+    position: relative;
+}
+
+.clock span{
+    width:100px;
+    height:80px;
+    background:slateblue;
+    opacity:8;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size:10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 80%;
+}
+.clock #ampm{
+    bottom:0;
+    position: absolute;
+    width:60px;
+    height:30px;
+    font-size:20px;
+    background: green;
 }
