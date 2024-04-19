@@ -3,7 +3,7 @@
 
 //arrays-> collection of elements
 
-let fruits= ["apple", "mango","grapes"];
+let fruits= ["apple", "mango","grapes","papaya"];
 console.log(fruits);
 
 //let numbers=[1,2,3,4,"string",null, undefined];
